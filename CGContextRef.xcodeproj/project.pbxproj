@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		D33886D51EFCDF1E00FC391B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886D41EFCDF1E00FC391B /* main.m */; };
-		D33886D81EFCDF1E00FC391B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886D71EFCDF1E00FC391B /* AppDelegate.m */; };
-		D33886DB1EFCDF1E00FC391B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886DA1EFCDF1E00FC391B /* ViewController.m */; };
-		D33886DE1EFCDF1E00FC391B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33886DC1EFCDF1E00FC391B /* Main.storyboard */; };
 		D33886E01EFCDF1E00FC391B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33886DF1EFCDF1E00FC391B /* Assets.xcassets */; };
 		D33886E31EFCDF1E00FC391B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33886E11EFCDF1E00FC391B /* LaunchScreen.storyboard */; };
+		D33886F01EFCDF8F00FC391B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886EE1EFCDF8F00FC391B /* AppDelegate.m */; };
+		D33886F31EFCDFA900FC391B /* IndexCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886F21EFCDFA900FC391B /* IndexCtrl.m */; };
+		D33886F81EFCDFCA00FC391B /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D33886F51EFCDFCA00FC391B /* UIView+AdjustFrame.m */; };
+		D33887031EFCE02600FC391B /* FinanceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D33887021EFCE02600FC391B /* FinanceInfo.m */; };
+		D33887091EFCE11700FC391B /* FinanceChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33887051EFCE11700FC391B /* FinanceChartView.m */; };
+		D338870A1EFCE11700FC391B /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33887071EFCE11700FC391B /* TitleView.m */; };
+		D338870B1EFCE11700FC391B /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33887081EFCE11700FC391B /* TitleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D33886D01EFCDF1E00FC391B /* CGContextRef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGContextRef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33886D41EFCDF1E00FC391B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D33886D61EFCDF1E00FC391B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D33886D71EFCDF1E00FC391B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D33886D91EFCDF1E00FC391B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D33886DA1EFCDF1E00FC391B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D33886DD1EFCDF1E00FC391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D33886DF1EFCDF1E00FC391B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33886E21EFCDF1E00FC391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33886E41EFCDF1E00FC391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33886ED1EFCDF8F00FC391B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D33886EE1EFCDF8F00FC391B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D33886F11EFCDFA900FC391B /* IndexCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexCtrl.h; sourceTree = "<group>"; };
+		D33886F21EFCDFA900FC391B /* IndexCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexCtrl.m; sourceTree = "<group>"; };
+		D33886F41EFCDFCA00FC391B /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		D33886F51EFCDFCA00FC391B /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		D33886F61EFCDFCA00FC391B /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
+		D33886F71EFCDFCA00FC391B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D33887011EFCE02600FC391B /* FinanceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceInfo.h; sourceTree = "<group>"; };
+		D33887021EFCE02600FC391B /* FinanceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceInfo.m; sourceTree = "<group>"; };
+		D33887041EFCE11700FC391B /* FinanceChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceChartView.h; sourceTree = "<group>"; };
+		D33887051EFCE11700FC391B /* FinanceChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceChartView.m; sourceTree = "<group>"; };
+		D33887061EFCE11700FC391B /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		D33887071EFCE11700FC391B /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		D33887081EFCE11700FC391B /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,10 @@
 		D33886D21EFCDF1E00FC391B /* CGContextRef */ = {
 			isa = PBXGroup;
 			children = (
-				D33886D61EFCDF1E00FC391B /* AppDelegate.h */,
-				D33886D71EFCDF1E00FC391B /* AppDelegate.m */,
-				D33886D91EFCDF1E00FC391B /* ViewController.h */,
-				D33886DA1EFCDF1E00FC391B /* ViewController.m */,
-				D33886DC1EFCDF1E00FC391B /* Main.storyboard */,
+				D33886EA1EFCDF8F00FC391B /* Controller */,
+				D33886EB1EFCDF8F00FC391B /* Module */,
+				D33886EF1EFCDF8F00FC391B /* View */,
+				D33886EC1EFCDF8F00FC391B /* Other */,
 				D33886DF1EFCDF1E00FC391B /* Assets.xcassets */,
 				D33886E11EFCDF1E00FC391B /* LaunchScreen.storyboard */,
 				D33886E41EFCDF1E00FC391B /* Info.plist */,
@@ -77,6 +90,49 @@
 				D33886D41EFCDF1E00FC391B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D33886EA1EFCDF8F00FC391B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D33886F11EFCDFA900FC391B /* IndexCtrl.h */,
+				D33886F21EFCDFA900FC391B /* IndexCtrl.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D33886EB1EFCDF8F00FC391B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D33887011EFCE02600FC391B /* FinanceInfo.h */,
+				D33887021EFCE02600FC391B /* FinanceInfo.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D33886EC1EFCDF8F00FC391B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D33886F41EFCDFCA00FC391B /* UIView+AdjustFrame.h */,
+				D33886F51EFCDFCA00FC391B /* UIView+AdjustFrame.m */,
+				D33886F61EFCDFCA00FC391B /* MyMacro.h */,
+				D33886F71EFCDFCA00FC391B /* PrefixHeader.pch */,
+				D33886ED1EFCDF8F00FC391B /* AppDelegate.h */,
+				D33886EE1EFCDF8F00FC391B /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D33886EF1EFCDF8F00FC391B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D33887041EFCE11700FC391B /* FinanceChartView.h */,
+				D33887051EFCE11700FC391B /* FinanceChartView.m */,
+				D33887061EFCE11700FC391B /* TitleView.h */,
+				D33887071EFCE11700FC391B /* TitleView.m */,
+				D33887081EFCE11700FC391B /* TitleView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +166,7 @@
 				TargetAttributes = {
 					D33886CF1EFCDF1E00FC391B = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DY8NXRF8KD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,7 +196,7 @@
 			files = (
 				D33886E31EFCDF1E00FC391B /* LaunchScreen.storyboard in Resources */,
 				D33886E01EFCDF1E00FC391B /* Assets.xcassets in Resources */,
-				D33886DE1EFCDF1E00FC391B /* Main.storyboard in Resources */,
+				D338870B1EFCE11700FC391B /* TitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33886DB1EFCDF1E00FC391B /* ViewController.m in Sources */,
-				D33886D81EFCDF1E00FC391B /* AppDelegate.m in Sources */,
+				D33886F01EFCDF8F00FC391B /* AppDelegate.m in Sources */,
+				D33887031EFCE02600FC391B /* FinanceInfo.m in Sources */,
+				D33886F81EFCDFCA00FC391B /* UIView+AdjustFrame.m in Sources */,
 				D33886D51EFCDF1E00FC391B /* main.m in Sources */,
+				D338870A1EFCE11700FC391B /* TitleView.m in Sources */,
+				D33887091EFCE11700FC391B /* FinanceChartView.m in Sources */,
+				D33886F31EFCDFA900FC391B /* IndexCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D33886DC1EFCDF1E00FC391B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D33886DD1EFCDF1E00FC391B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D33886E11EFCDF1E00FC391B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,7 +323,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGContextRef/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = CGContextRef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA.CGContextRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +338,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY8NXRF8KD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGContextRef/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = CGContextRef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA.CGContextRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
